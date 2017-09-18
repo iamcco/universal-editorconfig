@@ -1,0 +1,2 @@
+# universal-editorconfig
+universal editorconfig
