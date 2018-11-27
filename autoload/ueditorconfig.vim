@@ -10,6 +10,6 @@ scriptencoding utf-8
 " templates path
 let s:templates_path = fnameescape(fnamemodify(expand('<sfile>:p:h'), ':h') . '/templates')
 
-function! editorconfig#get_templates_path() abort
+function! ueditorconfig#get_templates_path() abort
     return s:templates_path
 endfunction

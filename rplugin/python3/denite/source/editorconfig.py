@@ -19,7 +19,7 @@ class Source(Base):
         self.kind = Kind(vim)
 
     def on_init(self, context):
-        templates_path = self.vim.call('editorconfig#get_templates_path')
+        templates_path = self.vim.call('ueditorconfig#get_templates_path')
 
         if not os.path.isdir(templates_path):
             raise Exception('templates dir is not exists, please check plugin is install complete')
